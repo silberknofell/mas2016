@@ -1,0 +1,32 @@
+/* LESS - http://lesscss.org style sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=32m0u0kievN8iQqdBFXm9r+qonM */
+/* Feel free to copy&paste color codes to your application */
+/* As hex codes */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+@media (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+.xs body {
+  background-color: red;
+}
+body {
+  background-color: #E4F9B9;
+  font-family: "Roboto";
+}
+nav {
+  background-color: #FF9393;
+}
+nav a {
+  color: rgba(0, 0, 0, 0.8);
+}
+nav a:hover {
+  background-color: #FFBDBD;
+}
+.navbar-title {
+  font-size: 18px;
+}
